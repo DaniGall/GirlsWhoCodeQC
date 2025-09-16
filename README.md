@@ -96,10 +96,6 @@ We welcome contributions from all Girls Who Code QC members! Here's how you can 
 - **Slack:** [Add Slack workspace link]
 - **Email:** [Add contact email]
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - Thank you to all Girls Who Code QC members who contribute to this project
