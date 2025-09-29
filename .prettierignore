@@ -1,0 +1,6 @@
+    # Ignore build artifacts
+    build/
+    dist/
+
+    # Ignore specific files
+    *.min.jsp

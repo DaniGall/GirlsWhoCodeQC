@@ -18,6 +18,7 @@ Girls Who Code is a nonprofit organization working to close the gender gap in te
 ### Prerequisites
 
 Make sure you have the following installed on your system:
+
 - [Node.js](https://nodejs.org/) (version 18 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Git](https://git-scm.com/)
@@ -25,23 +26,26 @@ Make sure you have the following installed on your system:
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/girlswhocodeQC.git
    cd girlswhocodeQC
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
    ```
 
 4. **Open your browser**
-   
+
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
 
 ## Project Structure
@@ -82,6 +86,7 @@ We welcome contributions from all Girls Who Code QC members! Here's how you can 
 - `npm run build` - Build the application for production
 - `npm run start` - Start the production server
 - `npm run lint` - Run ESLint to check for code issues
+- `npm run prettier` - Run prettier formatting on all files
 
 ## Resources
 
