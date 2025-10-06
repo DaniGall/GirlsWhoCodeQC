@@ -1,6 +1,8 @@
 import Header from "../../component/layout/Header";
 import Footer from "../../component/layout/Footer";
 
+// need headshots of team
+
 export default function About() {
   return (
     <div>

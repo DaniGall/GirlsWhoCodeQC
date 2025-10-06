@@ -13,10 +13,10 @@ export default function Footer() {
             <Link
               className="text-gray-600 hover:text-pink-600 font-medium transition-colors duration-200"
               href="https://girlswhocode.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              target="_blank" // Opens link in a new tab
+              rel="noopener noreferrer" // Security reasons keeps website from getting user data
             >
-              GWC National
+              GWC HQ
             </Link>
             <Link
               className="text-gray-600 hover:text-pink-600 font-medium transition-colors duration-200"
@@ -24,15 +24,15 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
+              Our Instagram
             </Link>
             <Link
               className="text-gray-600 hover:text-pink-600 font-medium transition-colors duration-200"
-              href="https://discord.com"
+              href="https://discord.gg/wPAVtrCSgq"
               target="_blank"
               rel="noopener noreferrer"
             >
-              TODO: ADD GWC Discord
+              Our Discord
             </Link>
           </div>
         </div>
