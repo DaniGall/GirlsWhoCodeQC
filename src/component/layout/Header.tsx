@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 w-full transition-all duration-300 ${
         isScrolled
           ? "bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-sm"
           : "bg-white/90 backdrop-blur-lg"
@@ -36,16 +36,22 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link
-              href="#team"
+              href="Team"
               className="text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200"
             >
               Team
             </Link>
             <Link
-              href="#about"
+              href="About"
               className="text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200"
             >
               About
+            </Link>
+            <Link
+              href="Event"
+              className="text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200"
+            >
+              Events
             </Link>
           </nav>
 
@@ -82,19 +88,28 @@ export default function Header() {
           }`}
         >
           <Link
-            href="#team"
+            href="Team"
             className="block text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200 py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Team
           </Link>
-          <nav className="py-4 space-y-4 border-t border-gray-100 mt-4">
+          <nav className=" space-y-2 border-t border-gray-100 mt-1">
             <Link
-              href="#about"
+              href="About"
               className="block text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200 py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
+            </Link>
+          </nav>
+          <nav className=" space-y-2 border-t border-gray-100 mt-1">
+            <Link
+              href="Event"
+              className="block text-gray-700 hover:text-pink-600 font-medium transition-colors duration-200 py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Events
             </Link>
           </nav>
         </div>

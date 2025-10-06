@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
             <Link
               className="text-gray-600 hover:text-pink-600 font-medium transition-colors duration-200"
-              href="https://instagram.com/your-chapter-handle"
+              href="https://www.instagram.com/gwc.qc/#"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discord-TODO: ADD GWC Discord 
+              TODO: ADD GWC Discord
             </Link>
           </div>
         </div>
