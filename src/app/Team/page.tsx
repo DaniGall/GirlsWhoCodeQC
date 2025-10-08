@@ -5,23 +5,23 @@ import TeamContainer from "../../component/layout/TeamContainer";
 export default function Team() {
   const teammates = [
     {
-      name: "Alice Johnson",
-      role: "Frontend Developer",
+      name: "Soja Sunny",
+      role: "President",
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Bob Smith",
-      role: "Backend Developer",
+      name: "Daniela Gallego",
+      role: "Vice President",
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Charlie Brown",
-      role: "UI/UX Designer",
+      name: "Farha Ferdous",
+      role: "Secretary",
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Diana Prince",
-      role: "Project Manager",
+      name: "Lisbeth Palacios",
+      role: "Treasurer",
       image: "https://via.placeholder.com/150",
     },
   ];

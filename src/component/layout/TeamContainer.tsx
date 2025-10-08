@@ -10,7 +10,7 @@ export default function TeamContainer({ teammates }: TeamContainerProps) {
       {/* Render teammates or other content */}
       {teammates.map((teammate, index) => (
         <div key={index}>
-          <h2>{teammate.name}</h2>
+           <h2 className="text-xl font-bold">{teammate.name}</h2> {/* Bold and bigger */}
           <p>{teammate.role}</p>
           <img src={teammate.image} alt={teammate.name} />
         </div>
