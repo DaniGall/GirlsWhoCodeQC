@@ -98,7 +98,8 @@ We welcome contributions from all Girls Who Code QC members! Here's how you can 
 ## Community
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/girls-who-code-queens-college/posts/?feedView=all)
-- [![Discord] (https://img.favpng.com/4/21/10/cartoon-face-discord-logo-0ttqD7nB_t.jpg)] (https://discord.gg/wPAVtrCSgq)
+
+- [![Discord](https://img.favpng.com/4/21/10/cartoon-face-discord-logo-0ttqD7nB_t.jpg)](https://discord.gg/wPAVtrCSgq)
 
 - [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:qcloop882@gmail.com)
 
