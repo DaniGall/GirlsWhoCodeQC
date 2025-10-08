@@ -97,9 +97,9 @@ We welcome contributions from all Girls Who Code QC members! Here's how you can 
 
 ## Community
 
-- [**Meetings:**] [Add meeting schedule]
-- [**Discord:**] (https://discord.gg/wPAVtrCSgq)
-- [**Email:**] (mailto:qcloop882@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/girls-who-code-queens-college/posts/?feedView=all)
+- [![Discord] (https://discord.gg/wPAVtrCSgq)]
+- [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:qcloop882@gmail.com)
 
 ## Acknowledgments
 
