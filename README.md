@@ -97,9 +97,9 @@ We welcome contributions from all Girls Who Code QC members! Here's how you can 
 
 ## Community
 
-- **Meetings:** [Add meeting schedule]
-- **Slack:** [Add Slack workspace link]
-- **Email:** [Add contact email]
+- [**Meetings:**] [Add meeting schedule]
+- [**Discord:**] (https://discord.gg/wPAVtrCSgq)
+- [**Email:**] (mailto:qcloop882@gmail.com)
 
 ## Acknowledgments
 
