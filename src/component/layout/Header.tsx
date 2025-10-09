@@ -28,13 +28,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Image
-            src="/images/GWC.png" // Replace with your logo path
-            alt="Logo"
-            width={40} // Adjust width as needed
-            height={40} // Adjust height as needed
-            className="cursor-pointer"
-          />
+          <Link href="/">
+            <Image
+              src="/images/GWC.png" // Replace with your logo path
+              alt="Logo"
+              width={40} // Adjust width as needed
+              height={40} // Adjust height as needed
+              className="cursor-pointer"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
