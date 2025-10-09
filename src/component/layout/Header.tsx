@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image"; // If using Next.js for optimized images
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,11 +28,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <div className="text-2xl font-black bg-gradient-to-r from-pink-300 to-pink-600 bg-clip-text text-transparent">
-              GirlsWhoCode
-            </div>
-          </Link>
+          <Image
+            src="/images/GWC.png" // Replace with your logo path
+            alt="Logo"
+            width={40} // Adjust width as needed
+            height={40} // Adjust height as needed
+            className="cursor-pointer"
+          />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
