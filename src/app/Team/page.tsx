@@ -1,10 +1,13 @@
 import TeamContainer from "../../component/layout/TeamContainer";
 export default function Team() {
   const teammates = [
-    { name: "Soja Sunny", role: "President" },
-    { name: "Daniela Gallego", role: "Vice President" },
-    { name: "Farha Ferdous", role: "Secretary" },
-    { name: "Lisbeth Palacios", role: "Treasurer" },
+    { name: "Ritika Deb", role: "President" },
+    { name: "Sara Lukacevic", role: "Vice President" },
+    { name: "Victoria Zhunio Catano", role: "Secretary" },
+    { name: "Umaiya Joha", role: "Treasurer" },
+    { name: "Daniela Gallego", role: "Marketing Director" },
+    { name: "New Person", role: "Graphic Designer" },
+    { name: "Lauren Mistretta", role: "Mentor" },
   ];
   return (
     <section className="shell section page-content">
