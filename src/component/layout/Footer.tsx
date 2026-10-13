@@ -6,7 +6,7 @@ export default function Footer() {
           <strong>Girls Who Code · Queens College</strong>
           <p>A little curiosity. A lot of possibility.</p>
           <small>
-            © {new Date().getFullYear()} Girls Who Code Queens College
+            © {new Date().getFullYear()} Girls Who Code Queens College. Built By Daniela Gallego
           </small>
         </div>
         <nav aria-label="Community links">
