@@ -1,41 +1,31 @@
-import Header from "../../component/layout/Header";
-import Footer from "../../component/layout/Footer";
 import TeamContainer from "../../component/layout/TeamContainer";
-
 export default function Team() {
   const teammates = [
-    {
-      name: "Soja Sunny",
-      role: "President",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Daniela Gallego",
-      role: "Vice President",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Farha Ferdous",
-      role: "Secretary",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Lisbeth Palacios",
-      role: "Treasurer",
-      image: "https://via.placeholder.com/150",
-    },
+    { name: "Soja Sunny", role: "President" },
+    { name: "Daniela Gallego", role: "Vice President" },
+    { name: "Farha Ferdous", role: "Secretary" },
+    { name: "Lisbeth Palacios", role: "Treasurer" },
   ];
   return (
-    <div>
-      <Header></Header>
-      <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-        <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-          <h1>
-            <TeamContainer teammates={teammates} />
-          </h1>
-        </div>
+    <section className="shell section page-content">
+      <p className="eyebrow">THE PEOPLE BEHIND THE LOOP</p>
+      <h1>
+        Building community,
+        <br />
+        <em>together.</em>
+      </h1>
+      <p className="intro">
+        Meet the chapter team helping make Girls Who Code Queens College a
+        welcoming place to learn and connect.
+      </p>
+      <TeamContainer teammates={teammates} />
+      <div className="join-panel">
+        <h2>Have an idea? Let’s talk.</h2>
+        <p>Reach out about collaborations, questions, or getting involved.</p>
+        <a className="button" href="mailto:qcloop882@gmail.com">
+          Contact the chapter ↗
+        </a>
       </div>
-      <Footer></Footer>
-    </div>
+    </section>
   );
 }

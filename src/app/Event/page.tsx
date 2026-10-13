@@ -1,16 +1,42 @@
-import Header from "../../component/layout/Header";
-import Footer from "../../component/layout/Footer";
+import InstagramFeed from "../../component/InstagramFeed";
+export const revalidate = 3600;
 
 export default function Event() {
   return (
-    <div>
-      <Header></Header>
-      <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-        <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-          <h1>List Events here</h1>
+    <>
+      <section className="shell section page-content">
+        <p className="eyebrow">LEARN SOMETHING. MEET SOMEONE.</p>
+        <h1>
+          Good things happen
+          <br />
+          <em>when we get together.</em>
+        </h1>
+        <p className="intro">
+          Workshops, community conversations, and chances to create together.
+          Find the latest chapter announcements on Instagram and Discord.
+        </p>
+        <div className="feed-empty">
+          <span className="feed-symbol" aria-hidden="true">
+            ✳
+          </span>
+          <div>
+            <h2>Looking for our next meetup?</h2>
+            <p>
+              Visit our community channels for confirmed dates, locations, and
+              RSVP details.
+            </p>
+            <a
+              className="button"
+              href="https://discord.gg/wPAVtrCSgq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See announcements on Discord ↗
+            </a>
+          </div>
         </div>
-      </div>
-      <Footer></Footer>
-    </div>
+      </section>
+      <InstagramFeed />
+    </>
   );
 }
