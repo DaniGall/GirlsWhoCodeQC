@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
           <Image src="/images/GWC.png" alt="" width={44} height={44} />
           <span>
-            girls who code<span className="brand-sub">QUEENS COLLEGE</span>
+            Girls Who Code<span className="brand-sub">QUEENS COLLEGE</span>
           </span>
         </Link>
         <button
