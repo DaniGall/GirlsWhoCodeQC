@@ -18,7 +18,7 @@ export default function Footer() {
             Instagram ↗
           </a>
           <a
-            href="https://discord.gg/wPAVtrCSgq"
+            href="https://discord.gg/zfUWpb8KgK"
             target="_blank"
             rel="noopener noreferrer"
           >

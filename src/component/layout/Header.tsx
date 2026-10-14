@@ -45,7 +45,7 @@ export default function Header() {
           ))}
           <a
             className="button small"
-            href="https://discord.gg/wPAVtrCSgq"
+            href="https://discord.gg/zfUWpb8KgK"
             target="_blank"
             rel="noopener noreferrer"
           >

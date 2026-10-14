@@ -27,7 +27,7 @@ export default function Event() {
             </p>
             <a
               className="button"
-              href="https://discord.gg/wPAVtrCSgq"
+              href="https://discord.gg/zfUWpb8KgK"
               target="_blank"
               rel="noopener noreferrer"
             >

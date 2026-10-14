@@ -37,7 +37,7 @@ export default function About() {
           </p>
           <a
             className="text-link"
-            href="https://discord.gg/wPAVtrCSgq"
+            href="https://discord.gg/zfUWpb8KgK"
             target="_blank"
             rel="noopener noreferrer"
           >

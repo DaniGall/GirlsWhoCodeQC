@@ -22,7 +22,7 @@ export default function Home() {
           <div className="actions">
             <a
               className="button"
-              href="https://discord.gg/wPAVtrCSgq"
+              href="https://discord.gg/zfUWpb8KgK"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -130,7 +130,7 @@ export default function Home() {
         <p>Say hello, hear about meetups, and join the conversation.</p>
         <a
           className="button"
-          href="https://discord.gg/wPAVtrCSgq"
+          href="https://discord.gg/zfUWpb8KgK"
           target="_blank"
           rel="noopener noreferrer"
         >
