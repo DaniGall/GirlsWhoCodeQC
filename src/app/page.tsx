@@ -9,11 +9,11 @@ export default function Home() {
         <div>
           <p className="eyebrow">QUEENS COLLEGE · GIRLS WHO CODE</p>
           <h1>
-            Your people.
+            We’re more than a coding club.
             <br />
-            Your potential.
+            We’re a community.
             <br />
-            <em>Your next chapter.</em>
+            <em> Welcome to our chapter.</em>
           </h1>
           <p className="intro">
             A community for curious minds and future changemakers. Come learn,
