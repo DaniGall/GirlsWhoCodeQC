@@ -6,7 +6,7 @@ export default function Team() {
     { name: "Victoria Zhunio Catano", role: "Secretary" },
     { name: "Umaiya Joha", role: "Treasurer" },
     { name: "Daniela Gallego", role: "Marketing Director" },
-    { name: "New Person", role: "Graphic Designer" },
+    { name: "Alisha Ahmad", role: "Graphic Designer" },
     { name: "Lauren Mistretta", role: "Mentor" },
   ];
   return (
